@@ -1,0 +1,137 @@
+{
+  "common": { "loading": "جار التحميل..." },
+  "errors": { "usersLoading": "فشل تحميل المستخدمين" },
+  "table": {
+    "previous": "الصفحة السابقة",
+    "next": "الصفحة التالية",
+    "actions": "الإجراءات",
+    "records_per_page":"العناصر في كل صفحة",
+    "page": "صفحة",
+    "of": "من"
+  },
+  "newRequest": {
+    "departments": "الأقسام",
+    "search_departments": "بحث الأقسام...",
+    "remove_all": "إزالة الكل",
+    "add_all": "إضافة الكل",
+    "employees": "الموظفون",
+    "selected_employees": "الموظفون المختارون",
+    "search_by_name_or_code": "ابحث بالاسم أو الكود...",
+    "clear_all": "مسح الكل",
+    "request_now": "طلب الآن",
+    "request_later": "طلب لاحق",
+    "add_global_request_notes": "أضف ملاحظات الطلب العامة...",
+    "please_select_meal_type": "الرجاء تحديد نوع الوجبة",
+    "submit_request": "إرسال الطلب",
+    "request_submitted": "تم إرسال الطلب",
+    "meal_request_created_for": "تم إنشاء طلب وجبة لـ {{count}} موظف.",
+    "no_selected_employees": "لم يتم اختيار أي موظف"
+  },
+  "navbar": {
+    "title": "وجبات التطبيق للموظفين",
+    "new_request": "طلب جديد",
+    "requests": "الطلبات",
+    "history": "طلباتي",
+    "requests_dashboard": "لوحة الطلبات",
+    "requests_details": "تقرير مفصل",
+    "users": "المستخدمين",
+    "meals": "الوجبات"
+  },
+  "requests": {
+    "table": {
+      "code": "الكود",
+      "status": "الحالة",
+      "requester": "مقدم الطلب",
+      "requester_title": "وظيفة مقدم الطلب",
+      "meal": "الوجبة",
+      "request_time": "وقت الطلب",
+      "closed_time": "وقت الإغلاق",
+      "notes": "الملاحظات",
+      "total_lines": "إجمالي الوجبات",
+      "accepted_lines": "الوجبات المقبولة",
+      "error_loading": "حدث خطأ أثناء تحميل البيانات...",
+      "loading": "جار التحميل..."
+    },   "details_table": {
+      "employee": "الموظف",
+      "attendance": "الحضور",
+      "shift_hours": "ساعات العمل",
+      "notes": "ملاحظات",
+      "accepted": "تم القبول",
+      "code": "الكود",
+      "na": "لا يوجد",
+      "save": "حفظ التغييرات",
+      "cancel": "إلغاء"
+    }
+  },
+  "meals": {
+    "table": {
+      "id": "المعرف",
+      "name": "الاسم",
+      "active": "نشط",
+      "schedules": "الجداول",
+      "error_loading": "حدث خطأ أثناء تحميل البيانات...",
+      "loading": "جار التحميل..."
+    },
+    "edit": {
+      "active": "نشط",
+      "inactive": "غير نشط",
+      "title": "تعديل الوجبة",
+      "description": "عدل جدول الوجبة وحالة التفعيل.",
+      "activation_label": "تفعيل الوجبة",
+      "cancel": "إلغاء",
+      "save": "حفظ",
+      "updated_success": "تم تحديث الوجبة بنجاح"
+    }
+  },
+  "timeSelect": {
+    "title": "تعديل الوقت",
+    "description": "اختر الساعة والدقيقة المطلوبة.",
+    "hourLabel": "الساعة",
+    "minuteLabel": "الدقيقة",
+    "hourPlaceholder": "الساعة",
+    "minutePlaceholder": "الدقيقة",
+    "start_time": "وقت البدء",
+    "end_time": "وقت الانتهاء",
+    "add_button": "إضافة",
+    "delete": "حذف",
+    "undo": "تراجع",
+    "invalid_time": "يرجى إدخال أوقات صحيحة بحيث يكون وقت البدء قبل وقت الانتهاء."
+  },
+  "users": {
+    "table": {
+      "username": "اسم المستخدم",
+      "fullname": "الاسم بالكامل",
+      "title": "الوظيفة",
+      "active": "نشط",
+      "search_place_holder": "إبحث عن مستخدم ..."
+
+    },
+    "edit": {
+      "trigger": "تعديل المستخدم",
+      "title": "تعديل بيانات المستخدم",
+      "description": "يمكنك تعديل بيانات المستخدم أدناه.",
+      "username": "اسم المستخدم",
+      "fullname": "الاسم الكامل",
+      "title_label": "المسمى الوظيفي",
+      "user_status": "حالة المستخدم",
+      "active": "مفعل",
+      "inactive": "غير مفعل",
+      "roles": "الأدوار",
+      "cancel": "إلغاء",
+      "save_changes": "حفظ التغييرات"
+    },
+    "create": {
+      "new_user": "مستخدم جديد",
+      "title": "إنشاء مستخدم جديد",
+      "description": "اختر مستخدمًا وقم بتحديد الصلاحيات",
+      "select_user": "اختر المستخدم",
+      "select_user_placeholder": "اختر مستخدمًا...",
+      "status": "حالة المستخدم",
+      "active": "مفعل",
+      "disabled": "غير مفعل",
+      "roles": "الأدوار",
+      "cancel": "إلغاء",
+      "create": "إنشاء"
+    }
+  }
+}

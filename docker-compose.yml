@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    image: it-servicedesk_technicians_backend:latest
+    container_name: it-servicedesk_technicians_fastapi
+    ports:
+      - "1500:8000"
+    env_file:
+      - ./.env
+    restart: unless-stopped
+    volumes:
+      - ./backend:/app
+
+  frontend:
+    build:
+      context: ./my-app
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_FASTAPI_URL: http://192.168.1.100:1500
+    image: it-servicedesk_technicians_frontend:latest
+    container_name: it-servicedesk_technicians_nextjs
+    ports:
+      - "150:3000"
+    restart: unless-stopped
+    depends_on:
+      - backend

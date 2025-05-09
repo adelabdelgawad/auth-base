@@ -1,0 +1,135 @@
+{
+  "common": { "loading": "Loading..." },
+  "errors": { "usersLoading": "Users Loading Error" },
+  "table": {
+    "previous": "Previous",
+    "next": "Next",
+    "actions": "Actions",
+    "records_per_page": "Records Per Page",
+    "page": "Page",
+    "of": "Of"
+  },
+  "newRequest": {
+    "departments": "Departments",
+    "search_departments": "Search departments...",
+    "remove_all": "Remove All",
+    "add_all": "Add All",
+    "employees": "Employees",
+    "selected_employees": "Selected Employees",
+    "search_by_name_or_code": "Search by name or code...",
+    "clear_all": "Clear All",
+    "request_now": "Request Now",
+    "request_later": "Request Later",
+    "add_global_request_notes": "Add Global Request notes...",
+    "please_select_meal_type": "Please Select Meal Type/s",
+    "submit_request": "Submit Request",
+    "request_submitted": "Request submitted",
+    "meal_request_created_for": "Meal request created for {{count}} employees.",
+    "no_selected_employees": "No Selected Employees"
+  },
+  "navbar": {
+    "title": "Employees Meal Request",
+    "new_request": "New Request",
+    "requests": "Requests",
+    "history": "History",
+    "requests_dashboard": "Requests Dashboard",
+    "requests_details": "Requests Details",
+    "users": "Users",
+    "meals": "Meals"
+  },
+  "requests": {
+    "table": {
+      "code": "Code",
+      "status": "Status",
+      "requester": "Requester",
+      "requester_title": "Requester Title",
+      "meal": "Meal",
+      "request_time": "Request Time",
+      "closed_time": "Closed Time",
+      "notes": "Notes",
+      "total_lines": "Total Lines",
+      "accepted_lines": "Accepted Lines",
+      "error_loading": "Error loading data...",
+      "loading": "Loading..."
+    },
+    "details_table": {
+      "employee": "Employee",
+      "attendance": "Attendance",
+      "shift_hours": "Shift Hours",
+      "notes": "Notes",
+      "accepted": "Accepted",
+      "code": "Code",
+      "na": "N/A",
+      "save": "Save Changes",
+      "cancel": "Cancel"
+    }
+  },
+  "meals": {
+    "table": {
+      "id": "ID",
+      "name": "Name",
+      "active": "Active",
+      "schedules": "Schedules",
+      "error_loading": "Error loading data...",
+      "loading": "Loading..."
+    },
+    "edit": {
+      "title": "Edit Meal",
+      "description": "Modify the meal schedule and activation status.",
+      "activation_label": "Meal Activation",
+      "cancel": "Cancel",
+      "save": "Save",
+      "updated_success": "Meal Updated Successfully"
+    }
+  },
+  "timeSelect": {
+    "title": "Time Modification",
+    "description": "Select the desired hour and minute.",
+    "hourLabel": "Hour",
+    "minuteLabel": "Minute",
+    "hourPlaceholder": "Hour",
+    "minutePlaceholder": "Minute",
+    "start_time": "Start Time",
+    "end_time": "End Time",
+    "add_button": "Add",
+    "delete": "Delete",
+    "undo": "Undo",
+    "invalid_time": "Please enter valid times with the start time before the end time."
+  },
+  "users": {
+    "table": {
+      "username": "USERNAME",
+      "fullname": "FULL NAME",
+      "title": "TITLE",
+      "active": "ACTIVE",
+      "search_place_holder": "Searh User ..."
+    },
+    "edit": {
+      "trigger": "Edit User",
+      "title": "Edit User",
+      "description": "Edit user details below.",
+      "username": "Username",
+      "fullname": "Full Name",
+      "title_label": "Title",
+      "user_status": "User Status",
+      "active": "Active",
+      "inactive": "Disabled",
+      "roles": "Roles",
+      "cancel": "Cancel",
+      "save_changes": "Save Changes"
+    },
+    "create": {
+      "new_user": "New User",
+      "title": "Create New User",
+      "description": "Select a user and assign roles",
+      "select_user": "Select User",
+      "select_user_placeholder": "Select a user...",
+      "status": "User Status",
+      "active": "Active",
+      "disabled": "Disabled",
+      "roles": "Roles",
+      "cancel": "Cancel",
+      "create": "Create User"
+    }
+  }
+}

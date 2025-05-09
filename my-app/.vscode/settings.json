@@ -1,0 +1,52 @@
+{
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/__init__.py": true,
+        "**/*.pyc": true,
+        "**/*.pyo": true,
+        "**/.DS_Store": true,
+        "**/.venv": true,
+        "**/env": true,
+        "**/venv": true,
+        "**/.git": true,
+        "**/.pytest_cache": true,
+        "**/.vscode": true,
+        "**/node_modules": true,
+        "**/Queries": true,
+        "**/*.md": true,
+        "**/requirments.txt": true,
+        "**/.gitignore": true,
+        "**/Lib": true
+        
+    },
+"[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+    "liveServer.settings.port": 5501,
+    "liveServer.settings.multiRootWorkspaceName": "EmployeeMealRequest",
+    "liveServer.settings.ignoreFiles": [
+  "**/pages/*.html"
+],
+"workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#fcff0a",
+    "activityBar.background": "#fcff0a",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#00bdbf",
+    "activityBarBadge.foreground": "#15202b",
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#fcff0a",
+    "statusBar.background": "#d3d600",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#a1a300",
+    "statusBarItem.remoteBackground": "#d3d600",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#d3d600",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#d3d60099",
+    "titleBar.inactiveForeground": "#15202b99"
+},
+"peacock.color": "#d3d600"
+
+}
